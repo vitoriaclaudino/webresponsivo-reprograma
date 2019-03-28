@@ -1,0 +1,179 @@
+*{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+ul, li {
+    list-style-type: none;
+}
+nav{
+    display: block;
+    background-color: #9c27b0;
+    text-align: center;
+}
+.nav_logo{
+    width: 55%;
+    height: 80%;
+    align-items: center;
+    padding: 10px;
+}
+.nav_lista{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+.nav_lista-link{
+    color: white;
+    text-decoration: none;
+}
+.footer_secundario-link{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: purple;
+    width: 70%;
+    height: 30px;
+    text-transform: uppercase;
+    border-radius: 200px;
+    border: none;
+    margin-top: 20px;
+}
+/* .container{
+    width: 90%;
+    margin: 0 auto;
+} */
+/* .descricao{
+    display: flex;
+    margin: 30px 0 0 0;
+}
+.descricao_foto{
+    width: 80%;
+} */
+.titulos{
+    text-transform: uppercase;
+    color: #8633cb;
+}
+.subtitulos{
+    margin: 10px 3px 0 0;
+    color: #7E459B;
+    font-weight: 100;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.descricao_foto{
+    text-align: left;
+    margin: 40px 0 0 0;
+}
+.descricao_foto-img{
+    width: 60%;
+    border-radius: 60%;
+    border: 2px solid black;
+    align-self: center;
+}
+.descricao_texto{
+    margin: 30px 0 auto;
+    
+}
+.cursos_conteudo{
+    width: 70%;
+    background-color: #C199CA;
+    border-radius: 10%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cursos_conteudo-img{
+    width: 50%;
+}
+.footer{
+    display:  flex;
+    margin-bottom: 40px;
+}
+.footer_img{
+    width:10%;
+}
+.footer_principal{
+    display: flex; 
+    height: 40px;
+    margin-bottom: 30px;
+}
+.footer_principal-img{
+    width: 30%;
+}
+.footer_principal-title{
+    font-size: 2rem;
+    color: #7E459B;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer_secundario{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #7E459B;
+    height: 20%;
+    color: aliceblue;
+}
+
+ /* quando tiver 1000 pixels e for no maximo 2010 px faça o codigo abaixo  */
+
+ @media (min-width:1000px) and (max-width:2010px) {
+    nav {
+    display: flex;
+    }
+    .descricao {
+    display: flex;
+    }
+    .descricao_foto-img{
+    width:70%;
+    }
+    .descricao_foto{
+        margin: 40px 0 0 0;
+        text-align: center;
+    }
+    .descricao_texto{
+    width:70%;
+    margin: 100px 0 auto;
+    }
+    .cursos{
+    display: flex;
+    }
+    .cursos_conteudo{
+    width: 23%;
+    }
+    .footer_principal{
+    display: none;
+    }
+    .nav_logo{
+    height: 50%;
+    }
+    .btn {
+        margin-top: 20px;
+    }
+    .footer_secundario{
+        display: flex;
+    }
+    .footer_secundario-link{
+        margin-left: -295px;
+    }
+
+}
+
+@media(min-width: 600px) and (max-width: 768px) {
+    .cursos{
+        display: flex;
+    }
+    .footer_secundario{
+        display: none;
+    }
+}
